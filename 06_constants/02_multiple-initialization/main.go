@@ -7,7 +7,7 @@ const (
 	language = "36"
 )
 
-func main()  {
+func main() {
 	fmt.Println(PI)
 	fmt.Println(language)
 }
