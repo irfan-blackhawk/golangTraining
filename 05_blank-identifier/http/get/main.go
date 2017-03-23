@@ -10,7 +10,7 @@ func main() {
 
 	res, _ := http.Get("http://google.com")
 	page, _ := ioutil.ReadAll(res.Body)
-	res.Body.Clgsose()
+	res.Body.Close()
 
 	fmt.Printf("%s", page)
 }
